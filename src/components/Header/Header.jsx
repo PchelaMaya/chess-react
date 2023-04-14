@@ -1,3 +1,4 @@
+import { Button } from '../Button/Button'
 import './Header.css'
 const Header = () => {
     return (
@@ -7,7 +8,8 @@ const Header = () => {
         </a>
         <div className='header-in'>
             <p className="header-text">Вступайте в клуб</p>
-            <button className="btn">Зарегистрироваться</button>
+            <div className='header-arrow'><div></div></div>
+            <Button/>
         </div>
       </div>
     )

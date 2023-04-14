@@ -1,0 +1,12 @@
+.btn {
+    padding: 14px 28px 16px 28px;
+    
+    font-style: var(--text-style);
+    font-weight: 600;
+    font-size: var(--text-size);
+
+    text-decoration: none;
+    background: #009465;;
+    border-radius: 8px;
+    border: none;
+}
