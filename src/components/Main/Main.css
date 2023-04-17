@@ -1,0 +1,44 @@
+.main {
+    background-color: #000;
+}
+.main-content {
+    padding-bottom: 80px;
+    display: flex;
+    column-gap: 300px;
+}
+
+.main-club {
+    width: 84px;
+
+    background-color: rgba(80, 54, 230, 1);
+    border-radius: 0 30px 30px 0;
+
+    margin-bottom: 70px;
+}
+.main-club h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 90%;
+    text-transform: uppercase;
+
+    padding: 18px 24px 18px 18px;
+}
+.main-text {
+    width: 500px;
+    margin-bottom: 182px;
+}
+.main-text__title {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 90%;
+
+    margin-bottom: 40px;
+}
+.main-text__description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
+.pies {
+    display: flex;
+}

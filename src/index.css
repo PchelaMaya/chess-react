@@ -1,3 +1,13 @@
 *{
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Noto Sans';
+  color: #FFFFFF;
+
+}
+.w-inner {
+  margin: 0 auto;
+  width: 1120px;
+  height: 100%;
 }
