@@ -1,7 +1,7 @@
 import './Button.css'
 const Button = () => {
     return (
-        <button className="btn">Зарегистрироваться</button>
+        <button type="submit" className="btn">Зарегистрироваться</button>
     )
 }
 export {Button}
