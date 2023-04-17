@@ -1,9 +1,9 @@
 import './Registration.css'
 import React from 'react'
 import { Button } from '../Button/Button'
-const Registration = ({active, setActive}) => {
+const Registration = ({setActive}) => {
     return (
-        <div className={active ? 'form-registration active' : 'form-registration'} 
+        <div className={'form-registration active'} 
         onClick={() => setActive(false)}>
            <div className='form-registration__content' onClick={e => e.stopPropagation()}>
                 <img className='registration-logo' src="../src/images/logo.svg"></img>

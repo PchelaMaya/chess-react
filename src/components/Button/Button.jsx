@@ -1,7 +1,7 @@
 import './Button.css'
-const Button = () => {
+const Button = ({onClick}) => {
     return (
-        <button type="submit" className="btn">Зарегистрироваться</button>
+        <button type="submit" className="btn" onClick={onClick}>Зарегистрироваться</button>
     )
 }
 export {Button}
