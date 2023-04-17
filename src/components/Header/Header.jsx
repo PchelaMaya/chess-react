@@ -3,7 +3,7 @@ import { Button } from '../Button/Button'
 import { Registration } from '../Registration/Registration'
 import './Header.css'
 const Header = () => {
-  const [registrationActive, setRegistrationActive] = useState(true);
+  const [registrationActive, setRegistrationActive] = useState(false);
 
     return (
       <div>
@@ -17,7 +17,7 @@ const Header = () => {
               <Button onClick={() => setRegistrationActive(true)} />
           </div>
         </div>
-        <Registration active={registrationActive} setActive={setRegistrationActive}/>
+        {registrationActive && <Registration setActive={setRegistrationActive}/>}
       </div>
 
     )
