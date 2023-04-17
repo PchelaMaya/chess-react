@@ -1,6 +1,22 @@
 .main {
     background-color: #000;
 }
+.main-content {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-content::after{
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 640px;
+    top: 147px;
+    right: -160px;
+    background-image: url("../src/images/pies-right.svg");
+    background-repeat: no-repeat;
+
+}
 .main-club {
     width: 84px;
 
@@ -33,25 +49,3 @@
     font-size: 20px;
     line-height: 130%;
 }
-/* .main-chess {
-    width: 416px;
-	display: table;
-	border-collapse: collapse;
-    background-color: rgba(80, 54, 230, 1);
-
-}
-.chess-tr {
-	display: table-row;
-}
-.chess-tr div {
-	width: 26px;
-	display: table-cell;
-	padding: 13px;
-
-}		
-.main-chess .chess-tr:nth-child(odd) div:nth-child(odd) {
-	background: white;
-}	
-.main-chess .chess-tr:nth-child(even) div:nth-child(even) {
-	background: white;
-} */
