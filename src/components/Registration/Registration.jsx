@@ -1,28 +1,28 @@
-import "./Registration.css";
+import styles from "./Registration.module.css";
 import React from "react";
 import { Button } from "../Button/Button";
 
 const Registration = ({ setActive }) => {
   return (
     <div
-      className={"form-registration active"}
+      className={styles.formRegistration}
       onClick={() => setActive(false)}
     >
       <div
-        className="form-registration__content"
+        className={styles.formRegistrationContent}
         onClick={(e) => e.stopPropagation()}
       >
-        <img className="registration-logo" src="../src/images/logo.svg"></img>
-        <h3 className="registration-title">Регистрация</h3>
+        <img className={styles.registrationLogo} src="../src/images/logo.svg"></img>
+        <h3 className={styles.registrationTitle}>Регистрация</h3>
         <form>
-          <div className="registration-input">
+          <div className={styles.registrationInput}>
             <input
-              className="registration-input__name"
+              className={styles.registrationInputName}
               type="text"
               placeholder="Имя"
             ></input>
             <input
-              className="registration-input__email"
+              className={styles.registrationInputEmail}
               type="email"
               placeholder="Email"
             ></input>

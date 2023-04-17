@@ -1,7 +1,7 @@
-import './Chess-desk.css'
+import styles from './Chess-desk.module.css'
 import { ChessLine } from "./Chess-line"
 const ChessDesk = () => {
-    return ( <div className="main-chess">
+    return ( <div className={styles.mainChess}>
                 <ChessLine/>
                 <ChessLine/>
                 <ChessLine/>
