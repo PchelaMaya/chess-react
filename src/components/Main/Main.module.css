@@ -1,13 +1,13 @@
 .main {
     background-color: #000;
 }
-.main-content {
+.mainContent {
     padding-bottom: 80px;
     display: flex;
     column-gap: 300px;
 }
 
-.main-club {
+.mainClub {
     width: 84px;
 
     background-color: rgba(80, 54, 230, 1);
@@ -15,7 +15,7 @@
 
     margin-bottom: 70px;
 }
-.main-club h3 {
+.mainClub h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 90%;
@@ -23,18 +23,18 @@
 
     padding: 18px 24px 18px 18px;
 }
-.main-text {
+.mainText {
     width: 500px;
     margin-bottom: 182px;
 }
-.main-text__title {
+.mainTextTitle {
     font-weight: 600;
     font-size: 70px;
     line-height: 90%;
 
     margin-bottom: 40px;
 }
-.main-text__description {
+.mainTextDescription {
     font-weight: 400;
     font-size: 20px;
     line-height: 130%;
@@ -42,3 +42,9 @@
 .pies {
     display: flex;
 }
+.wInner {
+    margin: 0 auto;
+    width: 1120px;
+    height: 100%;
+  }
+  

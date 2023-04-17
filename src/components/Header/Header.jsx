@@ -1,24 +1,25 @@
 import React, { useState } from 'react'
 import { Button } from '../Button/Button'
 import { Registration } from '../Registration/Registration'
-import './Header.css'
+import styles from'./Header.module.css'
+
 const Header = () => {
   const [registrationActive, setRegistrationActive] = useState(false);
 
     return (
-      <div>
-        <div className="header w-inner">
-          <a className="header-logo" href="/">
-              <img src="../src/images/logo.svg"></img>
-          </a>
-          <div className='header-in'>
-              <p className="header-text">Вступайте в клуб</p>
-              <div className='header-arrow'><div></div></div>
-              <Button onClick={() => setRegistrationActive(true)} />
-          </div>
+        <div className={styles.wInner}>
+            <div className={styles.header}>
+                <a className={styles.headerLogo} href="/">
+                    <img src="../src/images/logo.svg"></img>
+                </a>
+                <div className={styles.headerIn}>
+                    <p className={styles.headerText}>Вступайте в клуб</p>
+                    <div className={styles.headerArrow}><div></div></div>
+                    <Button onClick={() => setRegistrationActive(true)} />
+                </div>
+            </div>
+            {registrationActive && <Registration setActive={setRegistrationActive}/>}
         </div>
-        {registrationActive && <Registration setActive={setRegistrationActive}/>}
-      </div>
 
     )
   }
