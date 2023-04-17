@@ -4,19 +4,9 @@
 .main-content {
     padding-bottom: 80px;
     display: flex;
-    justify-content: space-between;
+    column-gap: 300px;
 }
-.main-content::after{
-    content: "";
-    position: absolute;
-    width: 320px;
-    height: 640px;
-    top: 147px;
-    right: -160px;
-    background-image: url("../src/images/pies-right.svg");
-    background-repeat: no-repeat;
 
-}
 .main-club {
     width: 84px;
 
@@ -48,4 +38,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 130%;
+}
+.pies {
+    display: flex;
 }

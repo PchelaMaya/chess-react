@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <div className="main">
             <Header/>
-            <div className="main-content w-inner">
+            <div className="main-content  w-inner">
                 <div className='main-left'>
                     <div className='main-club'>
                         <h3>Клуб</h3>
@@ -22,10 +22,12 @@ const Main = () => {
                     </div>
                     <ChessDesk/>
                 </div>
-                <img src='../src/images/pies.svg'></img>
+                <div className='pies'>
+                    <img src='../src/images/pies.svg'></img>
+                    <img src='../src/images/pies-right.svg'></img>
+                </div>
             </div>
         </div>
-
     )
 }
 export {Main}

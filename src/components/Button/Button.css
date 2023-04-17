@@ -9,4 +9,12 @@
     background: #009465;;
     border-radius: 8px;
     border: none;
+
+    cursor: pointer;
+}
+.btn:hover {
+    background: #066C4C;
+}
+.btn:active {
+    background: #0da273;
 }
