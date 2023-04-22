@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #5036E6;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1120px; 
+}
+.App {
+    position: relative;
+    width: 100%;
+}
